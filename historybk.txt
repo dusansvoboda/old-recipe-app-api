@@ -1,0 +1,119 @@
+    1  cd /media/
+    2  dir
+    3  ls
+    4  sudo apt install net-tools
+    5  sudo rm /var/lib/dpkg/lock
+    6  sudo apt install net-tools
+    7  sudo dpkg -configure -a
+    8  sudo dpkg --configure -a
+    9  sudo rm /var/lib/dpkg/lock
+   10  sudo dpkg --configure -a
+   11  ps aux | grep -i apt
+   12  sudo killall apt apt-get
+   13  sudo kill -9 3333
+   14  sudo kill -9 3493
+   15  sudo kill -9 25437
+   16  ps aux | grep -i apt
+   17  sudo kill -9 42207
+   18  sudo kill -9 21536
+   19  ps aux | grep -i apt
+   20  sudo apt install net-tools
+   21  sudo dpkg --configure -a
+   22  sudo apt install net-tools
+   23  sudo apt install open-vm-tools open-vm-tools-desktop
+   24  sudo reboot
+   25  sudo apt install open-vm-tools open-vm-tools-desktop
+   26  sudo poweroff
+   27  tar -xvf /media/$USER/"VMware Tools"/VMwareTools*.gz -C /tmp
+   28  sudo /tmp/vmware-tools-distrib/vmware-install.pl -d
+   29  sudo reboot
+   30  sudo apt-get update
+   31  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+   32  sudo rm /var/lib/apt/lists/lock
+   33  sudo rm /var/cache/apt/archives/lock
+   34  sudo rm /var/lib/dpkg/lock
+   35  sudo apt-get install apt-transport
+   36  sudo apt-get install apt-transport-https
+   37  sudo rm /var/lib/apt/lists/lock
+   38  sudo rm /var/lib/dpkg/lock
+   39  sudo apt-get install apt-transport-https
+   40  sudo rm /var/lib/dpkg/lock-frontend
+   41  sudo apt-get install apt-transport-https
+   42  sudo apt-get install ca-certificates curl gnupg-agent software-properties-common
+   43  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
+   44  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+   45  sudo apt update
+   46  apt-cache policy docker-ce
+   47  sudo apt install docker-ce
+   48  sudo systemctl status docker
+   49  docker-compose --version
+   50  sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove
+   51  sudo apt-get install open-vm-tools-desktop
+   52  sudo vim /etc/systemd/system/multi-user.target.wants/open-vm-tools.service
+   53  sudo vi /etc/systemd/system/multi-user.target.wants/open-vm-tools.service
+   54  sudo apt-get install vim
+   55  sudo vim /etc/systemd/system/multi-user.target.wants/open-vm-tools.service
+   56  sudo systemctl daemon-reload
+   57  sudo service opn-vm-tools restart
+   58  sudo service open-vm-tools restart
+   59  sudo reboot
+   60  sudo service open-vm-tools restart
+   61  cd ~/Downloads/
+   62  ls -ltr
+   63  sudo dpkg -i code_1.30.2-1546901646_amd64.deb
+   64  cd /opt/
+   65  ls -ltr
+   66  ls -l
+   67  top
+   68  sudo shutdown
+   69  sudo poweroff
+   70  cd ..
+   71  vscode
+   72  top
+   73  cd /bin/
+   74  ls -l
+   75  cd /user/bin
+   76  ls -l
+   77  pwd
+   78  cd /usr/
+   79  pwd
+   80  ls -l
+   81  cd bin/
+   82  ls -l
+   83  ls | grep code
+   84  code --verbose
+   85  code .
+   86  sudo snap install vscode
+   87  sudo snap install vscode --classic
+   88  code
+   89  cd
+   90  sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+   91  sudo apt install ubuntu-restricted-extras
+   92  sudo apt --fix-broken install
+   93  sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+   94  sudo poweroff
+   95  pwd
+   96  mkdir course
+   97  cd course/
+   98  https://github.com/dusansvoboda/recipe-app-api.git
+   99  git clone https://github.com/dusansvoboda/recipe-app-api.git
+  100  cd recipe-app-api/
+  101  code .
+  102  docker build .
+  103  sudo docker build .
+  104  sudo docker-compose build
+  105  sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  106  sudo chmod +x /usr/local/bin/docker-compose
+  107  sudo docker-compose build
+  108  docker-compose run app sh -c "django-admin.py startproject app ."
+  109  sudo docker-compose run app sh -c "django-admin.py startproject app ."
+  110  git add .
+  111  git commit -a
+  112  git-config --global user.email "dusan.svoboda@gmail.com"
+  113  git config --global user.email "dusan.svoboda@gmail.com"
+  114  git commit -a
+  115  git add .
+  116  git commit -a
+  117  git push origin
+  118  history
+  119  history > history.txt
